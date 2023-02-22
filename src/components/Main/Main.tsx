@@ -1,5 +1,10 @@
+import { Board } from "../Board/Board";
 import { MainContainer } from "./styles";
 
 export const Main = () => {
-  return <MainContainer></MainContainer>;
+  return (
+    <MainContainer>
+      <Board />
+    </MainContainer>
+  );
 };
